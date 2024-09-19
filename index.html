@@ -129,6 +129,7 @@
                 </a>
               </span>
 
+
               
               <!-- PDF Link. -->
 <!--              <span class="link-block">-->
@@ -165,7 +166,17 @@
               <!-- </span> -->
               <!-- Colab Link. -->
             </div>
-          </div>
+
+	<div class="audio-player">
+	    <button onclick="document.getElementById('audio-file').play()" class="button is-normal is-rounded">
+	      <span class="icon">
+		<i class="fas fa-play"></i>
+	      </span>
+	      <span>Play Audio</span>
+	    </button>
+	    <audio id="audio-file" src="static/audio/PodCastAudio.wav" type="audio/wav"></audio>
+	  </div>
+  	</div>
 
         </div>
       </div>
